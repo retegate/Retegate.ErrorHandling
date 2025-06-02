@@ -1,0 +1,13 @@
+<Solution>
+  <Folder Name="/SolutionItems/">
+    <File Path="Retegate.ErrorHandling.slnx" />
+    <File Path="Directory.Packages.props" />
+    <File Path="Directory.Build.props" />
+    <File Path="LICENSE" />
+    <File Path=".gitattrbutes" />
+    <File Path=".gitignore" />
+    <File Path=".editorconfig" />
+  </Folder>
+  <Project Path="Retegate.ErrorHandling.Tests\Retegate.ErrorHandling.Tests.csproj" Type="Classic C#" />
+  <Project Path="Retegate.ErrorHandling/Retegate.ErrorHandling.csproj" />
+</Solution>
