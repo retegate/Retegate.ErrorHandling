@@ -20,8 +20,6 @@ using Retegate.ErrorHandling._5xx.InternalServiceError;
 
 using Shouldly;
 
-using YourEdge.Common.ErrorHandling.Tests;
-
 namespace Retegate.ErrorHandling.Tests;
 
 public class ErrorHandlingMiddlewareTests

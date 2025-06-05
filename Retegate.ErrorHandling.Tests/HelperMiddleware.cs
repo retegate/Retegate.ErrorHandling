@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Http;
 
-namespace YourEdge.Common.ErrorHandling.Tests;
+namespace Retegate.ErrorHandling.Tests;
 
 public class HelperMiddleware<TEx>(TEx ex) : IMiddleware where TEx : Exception
 {
