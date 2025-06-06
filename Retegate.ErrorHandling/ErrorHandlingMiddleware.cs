@@ -15,7 +15,7 @@ namespace Retegate.ErrorHandling;
 
 public sealed class ErrorHandlingMiddleware(ILogger<ErrorHandlingMiddleware> logger) : IMiddleware
 {
-    private const string DefaultContentType = "application/problem+json";
+    public const string DefaultContentType = "application/problem+json";
 
     public async Task InvokeAsync(HttpContext context, RequestDelegate next)
     {
